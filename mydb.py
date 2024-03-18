@@ -3,7 +3,7 @@ import mysql.connector
 dataBase = mysql.connector.connect(
     host='localhost',
     user='root',
-    passwd=''
+    passwd='Pass*Word#123'
 )
 
 cursorObject = dataBase.cursor()
